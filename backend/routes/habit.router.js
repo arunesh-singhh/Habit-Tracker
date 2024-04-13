@@ -13,7 +13,7 @@ router.post('/create-habit', createHabit);
 router.get('/my-habits', habits);
 
 // rout for delete habit
-router.get('/delet', deleteHabit);
+router.get('/delete', deleteHabit);
 
 // route to change status on a task 
 router.get('/my-habits/toggle-status', toggleStatus);
